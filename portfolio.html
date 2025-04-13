@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N. Chandrasekhar | Portfolio</title>
+
+    <!-- Bootstrap & Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link icon="" rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAk7eVbX11PQAHqN4rDE4FOVh3DYiUyJQbqw&s" type="image/x-icon">
+    <!-- Google Fonts - Montserrat -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">N. Chandrasekhar</a> 
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#connect">Connect</a></li>
+                </ul>
+                <div class="social-icons ms-auto">
+                    <a href=https://www.linkedin.com/in/nare-chandrasekhar-2a911529a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                    <!-- <i id="themeToggle" class="fas fa-moon"></i> -->
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="overlay"></div>
+        <div class="container">
+            <h1 data-aos="fade-up">I'm N. Chandrasekhar</h1>
+            <p data-aos="fade-up" data-aos-delay="200">Java Developer | Frontend Developer | SQL | Power BI</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" data-aos="fade-up">
+        <h3>About Me</h3>
+        <p>Aspiring IT with a passion for learning and creating impactful work. Eager to grow and contribute to innovative projects.</p>
+    </section>
+
+     <!-- Projects Section -->
+     <section id="Projects " data-aos="fade-up">
+        <h3>My Projects </h3>
+        <div class="projects-container">
+            <div class="project" data-aos="fade-up" data-aos-delay="100">
+                <h4>AEROPONIC CHAMBER</h4>
+                <p> This project involved integrating IoT sensors with a Java-based control system to optimize water and nutrient delivery.</p>
+                <button class="btn btn-outline-primary" data-bs-toggle="collapse" data-bs-target="#project1" aria-expanded="false" aria-controls="project1">Read More</button>
+                <div id="project1" class="collapse project-collapse">
+                    <p class="mt-2">This project involved An automated tool that scrapes HackerRank submissions, stores them in a database, and uses machine learning to detect and report code plagiarism via a FastAPI backend..</p>
+                </div>
+            </div>
+            <div class="project" data-aos="fade-up" data-aos-delay="200">
+                <h4>Java Quiz System</h4>
+                <p>Developed an interactive quiz platform with real-time score tracking.
+
+                    .</p>
+                <button class="btn btn-outline-primary" data-bs-toggle="collapse" data-bs-target="#project2" aria-expanded="false" aria-controls="project2">Read More</button>
+                <div id="project2" class="collapse project-collapse">
+                    <p class="mt-2">Built using Spring Boot and PostgreSQL, featuring a responsive UI and user authentication.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" data-aos="fade-up">
+        <h3>Skills</h3>
+        <div class="skillsSection">
+            <h5>Programming Languages</h5>
+            <div class="skillsContainer">
+                <span class="skill-item">Java</span>
+                <span class="skill-item">Python</span>
+               
+            </div>
+        </div>
+        <div class="skillsSection">
+            <h5>Databases</h5>
+            <div class="skillsContainer">
+                <span class="skill-item">PostgreSQL</span>
+                <span class="skill-item">MySQL</span>
+            </div>
+        </div>
+        <div class="skillsSection">
+            <h5>Frameworks</h5>
+            <div class="skillsContainer">
+                <span class="skill-item">HTML</span>
+                <span class="skill-item">CSS</span>
+                <span class="skill-item">Java Script</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Connect Section -->
+    <section id="connect" data-aos="fade-up">
+        <h3>Connect with Me</h3>
+        <div class="connect-container">
+            <div class="connect-item">
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:chandunare8@gmail.com">chandunare8@gmail.com</a>
+            </div>
+            <div class="connect-item">
+                <i class="fab fa-linkedin"></i>
+                <a href="https://www.linkedin.com/in/nare-chandrasekhar-2a911529a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Nare Chandrasekhar Profile</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTop"><i class="fas fa-arrow-up"></i></button>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 N. Chandrasekhar. All rights reserved.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
